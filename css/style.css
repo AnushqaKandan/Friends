@@ -6,13 +6,32 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    margin-block: 1rem;
+}
+.wrapper{
+    background-color: yellow;
+    padding: 2rem;
+}
+
 :is(#fname, #lname) {
     width: 10rem;
     gap: 3rem;
-    
 }
 
 #lname{
     margin-block: 1rem;
 }
+
+label{
+    color:crimson; 
+    font-weight: bold;
+}
+
+
+
+
+
 
